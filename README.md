@@ -13,7 +13,7 @@ allprojects {
 
 ```
 dependencies {
-    compile 'com.github.JiangHaiYang01:VolleyUtil:1.0.0'
+     compile 'com.github.JiangHaiYang01:OKHttpUtil:1.0.0'
 }
 
 ```
