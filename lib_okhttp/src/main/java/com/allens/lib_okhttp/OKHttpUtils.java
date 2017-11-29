@@ -213,7 +213,7 @@ public class OKHttpUtils {
 
         //添加文件信息
         MultipartBody multipartBody = builder
-                .addFormDataPart("file", FileName, RequestBody.create(MediaType.parse("file/*"), new File(path + File.separator + FileName)))//添加文件
+                .addFormDataPart("file", FileName, RequestBody.create(MediaType.parse("file/*"), new File(path)))//添加文件
                 .build();
         Request.Builder builder1 = new Request.Builder();
         if (tag != null) {
